@@ -11,12 +11,13 @@ django-dotenv = "==1.4.2"
 django-extensions = "==2.1.2"
 djangorestframework = "==3.8.2"
 Django = "==2.*"
-jedi = "*"
 
 [dev-packages]
+jedi = "*"
 neovim = "==0.2.6"
 ipython = "*"
 pipenv = "*" # https://github.com/pypa/pipenv/issues/2952
+pylint = "*"
 
 [requires]
 python_version = "3.7"
